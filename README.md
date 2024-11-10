@@ -29,11 +29,11 @@ Usage
 
 Run VeilPiercer with a target domain to uncover the real IP.
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`codecargo run --release --` 
+` codecargo run --release --` 
 
 **Example:**
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML `codecargo run --release -- example.com`
+ `codecargo run --release -- example.com`
 
 ### Output
 
@@ -53,12 +53,12 @@ Configuration
 
 The tool uses the ipinfo.io and ip-api.com APIs. Ensure you have a valid ipinfo.io token if required. Update it in src/main.rs:
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML `let token = "YOUR_TOKEN_HERE"; // Replace with your own token if needed`
+`let token = "YOUR_TOKEN_HERE"; // Replace with your own token if needed`
 
 Example Output
 --------------
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   Target Domain: example.com  Resolved Cloudflare IP: 104.27.142.85  --- IPInfo ---  IP: 192.168.1.1  Country: United States  Region: California  City: Los Angeles  Organization: Example ISP  --- IP-API ---  Country: United States  Region: California  City: Los Angeles  ISP: Example ISP  Query IP: 192.168.1.1   `
+Target Domain: example.com  Resolved Cloudflare IP: 104.27.142.85  --- IPInfo ---  IP: 192.168.1.1  Country: United States  Region: California  City: Los Angeles  Organization: Example ISP  --- IP-API ---  Country: United States  Region: California  City: Los Angeles  ISP: Example ISP  Query IP: 192.168.1.1   `
 
 Legal Disclaimer
 ----------------
